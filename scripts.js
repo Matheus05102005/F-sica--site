@@ -9,7 +9,7 @@ function mostrarFormulario() {
 
   let equacoes = {
     "calorimetria": {
-      "Q = m * c * ΔT": ["m", "c", "dt"],
+      "Q = m * c * ΔT": ["m", "c", "ΔT"],
       "Q = m * L": ["m", "L"],
       "ΔU = Q - W": ["Q", "W"]
     },
