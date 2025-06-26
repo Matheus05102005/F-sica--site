@@ -101,7 +101,7 @@ function resolver(tema, equacao) {
         res = "P = " + (v(" ρ") * v("g") * v("h")).toFixed(2);
         break;
       case "Q = A * v":
-        res = "Q = " + (v(" A ") * v("v")).toFixed(2);
+        res = "Q = " + (v(" a ") * v("v")).toFixed(2);
         break;
      default:
         res = "Equação não implementada.";
