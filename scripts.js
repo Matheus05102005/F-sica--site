@@ -20,7 +20,7 @@ function mostrarFormulario() {
     },
     "fluidos": {
       "P = ρ * g * h": [" ρ ", "g", "h"],
-      "Q = A * v": [" A ", "v"]
+      "Q = ΔV / Δt ": ["ΔV", "Δt"]
     
     }
   };
@@ -52,7 +52,7 @@ function mostrarCampos(tema) {
     },
     "fluidos": {
       "P = ρ * g * h": [" ρ", "g", "h"],
-      "Q = A * v": [" A ", "v"]
+      "Q = ΔV / Δt ": ["ΔV", "Δt"]
     }
   };
 
@@ -100,8 +100,8 @@ function resolver(tema, equacao) {
       case "P = ρ * g * h":
         res = "P = " + (v(" ρ") * v("g") * v("h")).toFixed(2);
         break;
-      case "Q = A * v":
-        res = "Q = " + (v(" a ") * v("v")).toFixed(2);
+      case "Q = ΔV / Δt ":
+        res = "Q = " + (v(" ΔV ") * v("Δt")).toFixed(2);
         break;
      default:
         res = "Equação não implementada.";
