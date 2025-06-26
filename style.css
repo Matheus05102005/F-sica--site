@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+  background-color: #f7f7f7;
+}
+h1 {
+  margin-bottom: 20px;
+}
+select, input, button {
+  padding: 10px;
+  margin: 8px;
+}
+#formulario {
+  margin-top: 20px;
+}
+h2 {
+  color: #333;
+}
+input {
+  width: 200px;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de Física</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <h1>Calculadora de Física</h1>
+  <label for="tema">Selecione o tema:</label>
+  <select id="tema" onchange="mostrarFormulario()">
+    <option value="">-- Escolha --</option>
+    <option value="calorimetria">Calorimetria / Termodinâmica</option>
+    <option value="oscilacoes">Oscilações</option>
+    <option value="fluidos">Mecânica dos Fluidos</option>
+  </select>
+  <div id="formulario"></div>
+  <script src="scripts.js"></script>
+</body>
+</html>
