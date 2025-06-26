@@ -20,8 +20,8 @@ function mostrarFormulario() {
     },
     "fluidos": {
       "P = ρ * g * h": ["rho", "g", "h"],
-      "Q = A * v": ["A", "v"],
-      "E = P + 1/2 ρ v² + ρ g h": ["P", "rho", "v", "g", "h"]
+      "Q = A * v": ["A", "v"]
+    
     }
   };
 
